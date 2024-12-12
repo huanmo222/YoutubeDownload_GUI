@@ -1,0 +1,74 @@
+/* 主窗口样式 */
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+/* 输入框样式 */
+QLineEdit {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: white;
+}
+
+/* 按钮样式 */
+QPushButton {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #2196F3;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #1976D2;
+}
+
+QPushButton:pressed {
+    background-color: #0D47A1;
+}
+
+/* 表格样式 */
+QTableWidget {
+    border: 1px solid #ddd;
+    background-color: white;
+    gridline-color: #f0f0f0;
+}
+
+QTableWidget::item {
+    padding: 4px;
+}
+
+QTableWidget::item:selected {
+    background-color: #e3f2fd;
+}
+
+/* 进度条样式 */
+QProgressBar {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+QProgressBar::chunk {
+    background-color: #2196F3;
+}
+
+/* 表格中的按钮样式 */
+QTableWidget QPushButton {
+    padding: 2px 8px;
+    border: none;
+    border-radius: 2px;
+    background-color: #2196F3;
+    color: white;
+}
+
+QTableWidget QPushButton:hover {
+    background-color: #1976D2;
+}
+
+QTableWidget QPushButton:pressed {
+    background-color: #0D47A1;
+}
+ 
